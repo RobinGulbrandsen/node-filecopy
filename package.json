@@ -1,0 +1,16 @@
+{
+  "name": "fjellinjen",
+  "version": "1.0.0",
+  "description": "kopieringsjobb",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "prod": "forever index.js"
+  },
+  "author": "Robin Gulbrandsen",
+  "license": "MIT",
+  "dependencies": {
+    "forever": "^0.15.3",
+    "fs-extra": "^4.0.2"
+  }
+}
